@@ -13,12 +13,12 @@ BACK - Exit the application
 
 ## Installation
 
-The instruction assumes you know how to use the "fbt" CLI tool.
-To build the application, clone the official flipperzero-firmware repo, save files to flipperZero/official/applications_user/rotatingcube and run: 
+The instructions assume you know how to use the "fbt" CLI tool.
+To build the application, clone the official flipperzero-firmware repo, clone the contents of this repo to flipperZero/official/applications_user/rotatingcube and run: 
 ```
 ./fbt launch_app APPSRC=applications_user/rotatingcube
 ```
-Alternatively, you can copy the *.fap* from the release folder
+Alternatively, you can simply copy the *.fap* executable from the release folder into your Flipper's external memory (SD Card).
 
 
 
