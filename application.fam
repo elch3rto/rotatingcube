@@ -1,0 +1,9 @@
+App(
+    appid="rotatingcube",
+    name="Visual: Cube",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="rotation_main",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    fap_category="Visual Demos",
+)
