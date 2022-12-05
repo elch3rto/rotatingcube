@@ -18,7 +18,8 @@ To build the application, clone the official flipperzero-firmware repo, save fil
 ```
 ./fbt launch_app APPSRC=applications_user/rotatingcube
 ```
-Alternatively, you can copy the *.fap* from the build directory
+Alternatively, you can copy the *.fap* from the release folder
+
 
 
 
