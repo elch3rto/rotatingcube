@@ -178,7 +178,13 @@ static void app_draw_callback(Canvas* canvas, void* ctx) {
 #ifdef DEBUG
     for(uint8_t i = 0; i < 56; i += 7) {
         char debug_str[32];
-        snprintf(debug_str, 32, "%d %d %d", points[i / 7].x, points[i / 7].y, points[i / 7].z);
+        snprintf(
+            debug_str,
+            32,
+            "%d %d %d",
+            (cloud_of_points + (i / 7))->x,
+            (cloud_of_points + (i / 7))->y,
+            (cloud_of_points + (i / 7))->z);
         canvas_draw_str_aligned(canvas, 5, i, AlignLeft, AlignTop, debug_str);
     }
 
