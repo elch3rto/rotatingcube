@@ -1,7 +1,7 @@
 # rotatingcube
 
-This is an application for the Flipper Zero.
-Basically, it is a demo where you can rotate and move a cube in two axis.
+This is a visual demo for Flipper Zero where you can rotate and move a cube in two axis.
+Read more about Flipper Zero: https://docs.flipperzero.one/
 
 ![alt text](https://github.com/elch3rto/rotatingcube/blob/main/screencapture.jpeg "Screen capture from Flipper App")
 
@@ -13,12 +13,13 @@ BACK - Exit the application
 
 ## Installation
 
-The instructions assume you know how to use the "fbt" CLI tool.
-To build the application, clone the official flipperzero-firmware repo, clone the contents of this repo to flipperZero/official/applications_user/rotatingcube and run: 
+The instructions assume you know how to use the ```fbt``` CLI tool (from https://github.com/flipperdevices/flipperzero-firmware).
+To build the application, clone the official flipperzero-firmware repo, clone the contents of this repo to [firmware folder]/applications_user/. and run: 
 ```
 ./fbt launch_app APPSRC=applications_user/rotatingcube
 ```
-Alternatively, you can simply copy the *.fap* executable from the release folder into your Flipper's external memory (SD Card).
+~~Alternatively, you can simply copy the *.fap* executable from the release folder into your Flipper's external memory (SD Card).~~
+It is highly recommended to build the app from source, as API changes can prevent the *.fap* apps from launching.
 
 
 
