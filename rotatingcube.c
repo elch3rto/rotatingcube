@@ -19,9 +19,9 @@ applications/examples/example_images/example_images.c
 #include <gui/gui.h>
 #include <input/input.h>
 #include <math.h>
-#include "rotatingcube_icons.h"
+
 //#define DEBUG
-//If uncommented, will display the position of every point on screen(Play around with it!)
+//If uncommented, will display the position of every point on screen(You better not mess with this one!)
 
 //TYPE DEFINITIONS
 
@@ -290,7 +290,7 @@ int32_t rotation_main(void* p) {
             }
         }
 
-        //All the drawing stuff is contained in the function update
+        //All the drawing and calculations are done in the next function:
 
         view_port_update(view_port);
     }
