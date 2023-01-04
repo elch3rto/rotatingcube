@@ -16,8 +16,9 @@ OK - Toggle between movement and rotation modes
 
 BACK - Exit the application
 
-## Installation
 ---
+
+## Installation
 
 The instructions assume you know how to use the ```fbt``` CLI tool (from https://github.com/flipperdevices/flipperzero-firmware).
 To build the application, clone the official flipperzero-firmware repo, clone the contents of this repo to [firmware folder]/applications_user/. and run: 
